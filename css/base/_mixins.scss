@@ -1,0 +1,12 @@
+// https://www.npmjs.com/package/stack-svg
+@mixin icon($id, $color: black, $size: 32px, $path: "/icons/icons.svg") {
+  width: $size;
+  height: $size;
+  -webkit-mask-image: url('#{$path}#{"#"}#{$id}');
+  mask-image: url('#{$path}#{"#"}#{$id}');
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  background-color: $color;
+}
