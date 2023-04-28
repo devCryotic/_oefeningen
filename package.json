@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview --open --host",
     "predeploy": "npm run build",
-    "deploy": "surge ./dist template_main.johan.stapels.surge.sh"
+    "deploy": "surge ./dist _oefeningen._javascript.johan.stapels.surge.sh"
   },
   "keywords": [],
   "author": "",

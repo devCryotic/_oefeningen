@@ -1,0 +1,28 @@
+@use "./base/reset";
+@use "./base/variables" as *;
+@use "./base/fonts";
+@use "./base/mixins" as *;
+
+.container {
+  width: 500px;
+  position: relative;
+  margin: 50px auto;
+  transition: all 3000ms;
+  header {
+    height: 50px;
+    nav {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      right: 10px;
+      margin: 10px;
+    }
+  }
+  main {
+    height: 600px;
+    transition: all 1000ms;
+  }
+  .collapsed {
+    height: 0;
+  }
+}

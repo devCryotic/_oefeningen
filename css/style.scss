@@ -11,3 +11,22 @@
   stroke: currentColor;
   fill: currentColor;
 }
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 50px;
+  h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: grey;
+    margin-bottom: 1rem;
+  }
+  li {
+    background-color: lightgray;
+    text-decoration: none;
+    a {
+      font-size: 2rem;
+      text-decoration: none;
+    }
+  }
+}
